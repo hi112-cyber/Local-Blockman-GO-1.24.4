@@ -10,7 +10,7 @@ import os
 import sys
 import urllib.request
 
-REPO = os.environ.get("GITHUB_REPOSITORY", "Disable-OP/Local-Blockman-GO-1.24.4")
+REPO = os.environ.get("ASSET_SOURCE_REPO", "Disable-OP/Local-Blockman-GO-1.24.4")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 API = "https://api.github.com"
 
